@@ -6,6 +6,8 @@ O objetivo é esconder uma imagem dentro de outra de forma imperceptível, utili
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JuanHPassos/svd-watermarking/blob/main/main.ipynb)
 
+*Ou acesse em [SVD Watermark](main.ipynb)
+
 ## Como funciona
 1. **Embedding:** A imagem principal é dividida em blocos e decomposta via SVD. A marca d'água é inserida nos valores singulares ($\Sigma$).
 2. **Extração:** Utilizando a imagem original e as chaves geradas, o algoritmo recupera a marca d'água escondida.
